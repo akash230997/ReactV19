@@ -1,7 +1,9 @@
 import { version } from "react";
 
 import "./App.css";
-import { LiftingState } from "./Compoents/LiftingState";
+import MemoizationComponent from "./Compoents/MemoizationComponent";
+// import { LiftingState } from "./Compoents/LiftingState";
+// import RefComponent from "./Compoents/RefComponent";
 // import EventPropagation from "./Compoents/EventPropagation";
 // import StateManagementKit from "./Compoents/StateManagementKit";
 // import data from "./assets/data.json";
@@ -31,7 +33,9 @@ function App() {
         </GettingPropsWithJSX> */}
         {/* <EventPropagation /> */}
         {/* <StateManagementKit /> */}
-        <LiftingState />
+        {/* <LiftingState /> */}
+        {/* <RefComponent /> */}
+        <MemoizationComponent />
       </div>
     </>
   );
